@@ -4,6 +4,7 @@
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="#" type="image/x-icon" />
       <link rel="stylesheet" href="style.css" />
       <title>Theatre Seat Selector</title>
    </head>
@@ -11,18 +12,18 @@
       <div class="movie-container">
          <label for="movie">Pick a movie:</label>
          <select id="movie-list">
-            <option value="6">Toy Story 4</option>
-            <option value="10">Joker</option>
-            <option value="2">Avengers: End Game</option>
-            <option value="5">Five Feet Apart</option>
-            <option value="8">Fifty Shades of Grey</option>
+            <option value="6">Toy Story 4 ($6)</option>
+            <option value="10">Joker ($10)</option>
+            <option value="12">Avengers: End Game ($12)</option>
+            <option value="5">Five Feet Apart ($5)</option>
+            <option value="8">Fifty Shades of Grey ($8)</option>
          </select>
       </div>
 
       <ul class="showcase">
          <li>
             <div class="seat"></div>
-            <small>NA</small>
+            <small>Empty</small>
          </li>
          <li>
             <div class="seat selected"></div>
@@ -99,7 +100,7 @@
       </div>
 
       <p class="text">
-         You have selected <span id="cout">0</span> seats for a price of $<span
+         You have selected <span id="count">0</span> seats for a price of $<span
             id="total"
             >0</span
          >.
