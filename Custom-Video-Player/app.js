@@ -1,3 +1,6 @@
+// @Author: Prabesh Thapa 'SHA11KOO'
+// Desc: This is a custom video player built with HTML5 Video API.
+
 const video = document.querySelector("#video");
 const play = document.querySelector("#play");
 const stop = document.querySelector("#stop");
