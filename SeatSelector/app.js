@@ -1,3 +1,6 @@
+// @Author: Prabesh Thapa 'SHA11KOO'
+// Desc: This is a application where you can select a seat of your choice
+
 const container = document.querySelector(".container");
 const seats = document.querySelectorAll(".row .seat:not(occupied)");
 const count = document.querySelector("#count");
