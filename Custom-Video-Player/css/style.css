@@ -52,10 +52,19 @@ img.stop-btn {
    border-radius: 10px;
 }
 
+img.pause-btn {
+   background-color: gold;
+   border-radius: 10px;
+}
+
 .controls .timestamp {
    color: black;
    font-weight: bold;
    margin-left: 12px;
+}
+
+.timestamp {
+   color: gold !important;
 }
 
 @media (max-width: 800px) {
