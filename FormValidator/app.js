@@ -1,3 +1,6 @@
+// @Author: Prabesh Thapa 'SHA11KOO'
+// Desc: This is a form validator in JavaScript.
+
 const form = document.querySelector("#form");
 const username = document.querySelector("#username");
 const email = document.querySelector("#email");
