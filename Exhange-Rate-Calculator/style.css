@@ -70,7 +70,7 @@ p {
    padding: 10px 20px;
    border: 2px solid var(--secondary-color);
    border-radius: 10px;
-   width: 40%;
+   width: 50%;
    font-size: 14px;
    font-weight: bold;
    -moz-appearance: none;
@@ -86,7 +86,7 @@ p {
 
 .currency input {
    padding: 8px;
-   width: 50%;
+   width: 40%;
    border: 2px solid var(--secondary-color);
    border-radius: 10px;
    background: transparent;
@@ -114,7 +114,20 @@ button:focus {
 }
 
 @media (max-width: 600px) {
+   h1 {
+      font-size: 1.6rem;
+   }
+
+   .exc-img {
+      width: 60%;
+      height: 25%;
+   }
+
    .currency input {
-      width: 200px;
+      width: 40%;
+   }
+
+   .currency select {
+      width: 50%;
    }
 }
